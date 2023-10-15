@@ -1,0 +1,323 @@
+
+<html lang="en">
+<head class="h">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="mywebsite.css">
+  <script type="text/javascript" src="bootstrap.js"></script>
+  <title>My personal project</title>
+  <meta name="description" content="This is my personal website homepage">
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
+</head>
+<body>
+    <div class="nav-menu">
+        <a class="active" href="index.html">Home</a>
+        <a href="about-me.html" target="_blank">About Me</a>
+        <a href="contact-me.html">Contact Me</a>
+      </div>
+
+  <div style= "background-color:grey"> 
+  <header class="hback" align="center" style="background-color:blue">
+    <h4 style="color:darkred">My Software Developement Journey</h4>
+    <h2 style="color:darkred;">Marvin Garrison III</h2>
+  </header>
+
+  <div style="padding: 20px; min-height:250px; background-image:url(https://images.unsplash.com/photo-1574169208507-84376144848b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=879&q=80)">
+  <button type="button" class="btn btn-outline-secondary">Directory</button><!--supposed to be outline button-->
+  <h3 class="about-me" style="color:white; margin:0">About Me</h3> 
+<img src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.6435-9/56252747_2354084561292503_37877814799630336_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=NygBcQR76SQAX_VoOmq&_nc_ht=scontent-lga3-2.xx&oh=00_AfC-qg7P8tjZJdAesc0I438Nx_7aBxEWsRpDC3L54Wg_eg&oe=64EFECCA" class="rounded" height="195" width="195" style="float: right" alt="me">
+
+
+ <div class="in-left">
+<div class="b">
+<p style="color:white"> Born January 16, 1995 in <a href="https://www.baltimorecity.gov/" target="_blank">Baltimore, MD</a>.As a child I attended <a href="https://shaa4.org/" target="_blank">Steuart Hill Elementary School</a>. As a young adult, I served two years in the <a href="https://www.army.mil/" target="_blank">Army</a> where I traveled by plane for the first time, threw a grenade for the first time, and fired a grenade launcher for the first time. I created this page to show my current skill with HTML. Some things stick easier than other things like tables and semantics I really need to practice more. The lessons go by quickly and its difficult to keep up. Managing time is something I've also had to focus on during this progam. With this page, I hope to continue updating it with more details and customizations to show my progression with Front End Developement.</p></div>
+   <div>
+<div class="a">
+<article style="color:white">
+I've learned how to create tables, forms, and blank web pages with a little bit of content on them. I can attach links to words and have them open in a seperate tab. I am specically proud that can also make page accessible to people who may have been born with disablities. I'm both excited to see whats to come next. Everyone talks about Javascript like it's big bad boogy man of coding and it has me a little more nervous than usual.  
+</article></div>
+</div>
+	 
+	 <!--Beginning of Cards-->
+	 <div class="pcard">
+  <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/384780254_7121217397912505_8792733618799273075_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=49d041&_nc_ohc=1lblxnKXEqAAX-DznoX&_nc_ht=scontent-lga3-1.xx&oh=00_AfBINay3eOOZPv5OjM0udSLyPU_r-KQaMp26P9S6t67zvw&oe=651F9043" alt="Calculator" style="width:100%">
+  <div class="pcontainer">
+    <h4><b>Personal Profile Card</b></h4>
+    <p style="color:white">My first project. I was proud of this due to it having the most CSS I've used so far.</p>
+  </div>
+</div>
+<div class="pcard">
+  <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/384795416_7121232191244359_3543967647491092156_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=49d041&_nc_ohc=Q_hteOPuyRYAX8WCP_W&_nc_ht=scontent-lga3-1.xx&oh=00_AfBlxfFyfV3H5jaiDFup6rcj2tEHcC4Kvwpn_zYdMzkYjw&oe=651F3F25" alt="Side menu" style="width:100%">
+  <div class="pcontainer">
+    <h4><b>Interactive Side Menu</b></h4>
+    <p style="color:white">I had to work on this project  forwards and backwards in order to finish it.</p>
+  </div>
+</div>
+<div class="pcard">
+  <img src="https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/385048967_7121269924573919_8441205993781548162_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=49d041&_nc_ohc=QKpsddmSVdkAX-ZpxLx&_nc_ht=scontent-lga3-2.xx&oh=00_AfAJLebYSBBILEABYPr3qE--rL0v16n3krMXOFzEZYZDnw&oe=651FAF77" alt="Calculator" style="width:100%">
+  <div class="pcontainer">
+    <h4><b>Age Calculator</b></h4>
+    <p style="color:white">My second project with Javascript. After typing in the month, day, and year you were born, the calculator will show your current age.</p>
+  </div>
+</div>
+
+	 
+	 
+<div class="calc-container">
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="result" readonly>
+        </div>
+        <div class="buttons">
+            <button onclick="clearResult()">C</button>
+            <button onclick="appendToResult('7')">7</button>
+            <button onclick="appendToResult('8')">8</button>
+            <button onclick="appendToResult('9')">9</button>
+            <button onclick="appendToResult('+')">+</button>
+            <button onclick="appendToResult('4')">4</button>
+            <button onclick="appendToResult('5')">5</button>
+            <button onclick="appendToResult('6')">6</button>
+            <button onclick="appendToResult('-')">-</button>
+            <button onclick="appendToResult('1')">1</button>
+            <button onclick="appendToResult('2')">2</button>
+            <button onclick="appendToResult('3')">3</button>
+            <button onclick="appendToResult('*')">*</button>
+            <button onclick="appendToResult('0')">0</button>
+            <button onclick="appendToResult('.')">.</button>
+            <button onclick="calculateResult()">=</button>
+            <button onclick="appendToResult('/')">/</button>
+        </div>
+    </div>
+	 </div>
+	 
+	 <div class="calc-p">
+	 <article>This is a calculator I had to create for a previous project. I couldnt get the design for concave buttons the way i wanted it so I decided to just go with a more simplistic approach.</article></div>
+
+	 
+<div> <!--have trouble with footer background and grid-->
+<footer class="fback" align="center" style= "background-color:purple">
+<form>
+
+  <div><label for="fname">First name:</label></div>
+  <div><input type="text" id="fname" name="fname"></div>
+  <div><label for="lname">Last name:</label></div>
+  <div><input type="text" id="lname" name="lname"></div>
+  <div><label for="fname">Email:</label></div>
+  <div><input type="text" id="email" name="email"></div>
+  <div><label for="tnumber">Telephone number:</label></div>
+  <div><input type="text" id="tnumber" name="tnumber"></div>
+   </div>
+</form>
+
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+	 
+</body>
+</html>
+
+.about-me {
+    width: 200px;
+      border-radius: 25px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 1.2rem;
+      font-weight: 400;
+      border: 2px solid rgb(98, 117, 117);
+      background: transparent;
+      color: rgb(98, 117, 117);
+      padding: 0.75rem;
+      cursor: pointer;
+      transition: all 0.5s ease-out;
+    
+    }
+    
+    .about-me:hover {
+      border-color: rebeccapurple;
+      background: darkviolet;
+      color: rgb(11, 32, 32);
+      font-weight: 600;
+      transition: all 0.5s ease-out;
+    }
+    
+    
+    
+    
+    
+    div.b {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-indent: 50px;
+      
+    }
+    
+    
+    div.a {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-indent: 5%;
+    }
+    
+    .hback {
+      background-image: url(https://media.istockphoto.com/id/1393983403/video/4k-animated-black-grey-polygonal-plexus-background-with-golden-dots-metaverse-abstract.jpg?s=640x640&k=20&c=7tsCyiYDVlstq8a1-yX4WNp82mZtHXOUfPrhxRT6FAY=);
+      border-style: outset;
+      border-color: rgb(187, 67, 87)
+      border: 2px;
+      border-radius: 8px;
+      padding: 5px;
+    }
+    
+    .fback {
+   font-family: Arial, Helvetica, sans-serif;
+   border-style: inset;
+    
+    }
+    
+.fade-in-text {
+  font-family: Arial;
+  font-size: 18px;
+  animation: fadeIn 5s;
+}
+    
+.in-left {
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-duration:1s;
+    animation-delay: 1s;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(-100px);
+        -moz-transform: translatex(-100px);
+        -o-transform: translatex(-100px);
+        transform: translatex(-100px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+
+/*beginning of proj card css*/
+.pcard {
+  /* Add shadows to create the "card" effect */
+  display:  inline-grid;
+  padding: 5px;
+  width: 200px;
+  height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.pcard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.pcontainer {
+  padding: 2px 16px;
+}
+/*end of project card css*/
+
+
+
+
+	/*background color 333*/
+	.calc-container {
+    font-family: Arial, sans-serif;
+    background-color:;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/*margin to move calculator. duh*/
+.calculator {
+  width: 300px;
+  margin: 20px 10px 0px;
+	background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.display {
+    padding: 10px;
+}
+
+input type="text"] {
+    width: 92%;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.buttons>button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons>button:hover {
+    background-color: #666;
+}
+
+.calc-p{
+	margin: 0px 0px 10px
+	word-wrap: break-word;
+	text-align: right;
+	text-indent: 40%;
+	color: white;
+	
+	
+}
+
+
+
+
+let result = document.getElementById("result");
+
+function appendToResult(value) {
+    result.value += value;
+}
+
+function clearResult() {
+    result.value = "";
+}
+
+function calculateResult() {
+    try {
+        result.value = eval(result.value);
+    } catch (error) {
+        result.value = "Error";
+    }
+}
